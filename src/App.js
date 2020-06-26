@@ -23,7 +23,7 @@ I also really enjoy pets and hiking as hobbies.</p>
       <h3 className='Projects-header'>Contact</h3>
       <div className='contact-information'>
         <p><a href=
-          "https://www.linkedin.com/in/omar-muhanna-profile/"
+          "mailto:omarmuhomar@hotmail.com?subject=current-issue&amp;body=send%20current-issue"
           target="_blank"
           rel="noopener noreferrer">
           Email</a></p>
