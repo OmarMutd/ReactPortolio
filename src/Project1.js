@@ -1,26 +1,31 @@
 import React from 'react';
 import Cart from "./cart.jpeg";
+import './App.css';
 
 export default function Project() {
     return (
-        <div className="card">
-            <div className="item_item-card">
+        <div className="card one">
+            <div className="item_item-card one">
                 <div className="item_item-image">
-                    <img src={Cart} alt='project1' />
+                    <img className='project-image-header' src={Cart} alt='project1' />
                 </div>
 
                 <div className="product-information"></div>
-                <p>This project was built with React, Express, and PSQL. It was made by a team of four in three weeks. It is an ecommcerce website that uses dummy data.</p>
-                <p><a href=
-                    "https://github.com/OmarMutd/TBM-Client"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Github</a></p>
-                <p><a href=
-                    "https://tbm-client.now.sh/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Live</a></p>
+                <div className='txt-box'>
+
+                    <h4 className='app-name'>The Black Market</h4>
+                    <p className='about-project'>This project was built with React, Express, and PSQL. It was made by a team of four in three weeks. It is an ecommcerce website that uses dummy data.</p>
+                    <p className='about-project-2'><a href=
+                        "https://github.com/OmarMutd/TBM-Client"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Github</a></p>
+                    <p className='about-project-2'><a href=
+                        "https://tbm-client.now.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Live</a></p>
+                </div>
             </div>
         </div>
     )

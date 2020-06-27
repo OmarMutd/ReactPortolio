@@ -9,9 +9,15 @@ function App() {
     <div className="App">
       <h1 className='App-Header'> Hi, I'm Omar.</h1>
       <p className='intro-to-me'> A Full stack React software engineer living in Texas,USA<span role='img' aria-label="USA-flag"> 🇺🇸</span>.</p>
-      <p className='about'>Coding is a lot of fun espically when it comes to showing your creative side using tools like Reactjs or Javascript!
-      My Skills include: HTML, JS, CSS, React, Express, and postgreSQL. I aslo desire to work on a team as pair programming is very fun.
-I also really enjoy pets and hiking as hobbies.</p>
+      <p className='about'>Coding is a lot of fun espically when it comes to showing your creative side using tools like Reactjs or Javascript! I also desire to work on a team as pair programming is very fun. I also really enjoy pets and hiking as hobbies.</p>
+      <ul className='skills-list'>
+        <h5>My Skills include:</h5>
+        <li>JS</li>
+        <li>CSS</li>
+        <li>React</li>
+        <li>Express & Node</li>
+        <li>PostgreSQL</li>
+      </ul>
       <h3 className='Projects-header'>Projects</h3>
       <div className="item-card">
         <div className='item-image'>
@@ -26,7 +32,7 @@ I also really enjoy pets and hiking as hobbies.</p>
           "mailto:omarmuhomar@hotmail.com?subject=Hey Omar!&amp;body=send%20..."
           target="_blank"
           rel="noopener noreferrer">
-          Email</a></p>
+          Email me at: omarmuhomar@hotmail.com</a></p>
         <p><a href=
           "https://www.linkedin.com/in/omar-muhanna-profile/"
           target="_blank"
@@ -38,7 +44,7 @@ I also really enjoy pets and hiking as hobbies.</p>
           rel="noopener noreferrer">
           Github</a></p>
       </div>
-    </div>
+    </div >
   );
 }
 

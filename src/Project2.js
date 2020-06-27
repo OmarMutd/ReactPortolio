@@ -1,26 +1,31 @@
 import React from 'react';
-import MapImage from "./MapImage.png";
+// import MapImage from "./MapImage.png";
+import MapImage from "./MapImage3.jpeg";
+import './App.css';
 
 export default function Project2() {
     return (
-        <div className="card">
-            <div className="item_item-card">
+        <div className="card one">
+            <div className="item_item-card one">
                 <div className="item_item-image">
-                    <img src={MapImage} alt='project1' />
+                    <img className='project-image-header' src={MapImage} alt='project1' />
                 </div>
 
                 <div className="product-information"></div>
-                <p>This project was built with Jquery, HTML and CSS.</p>
-                <p><a href=
-                    "https://github.com/ljspiek/refuge_app"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Github</a></p>
-                <p><a href=
-                    "https://ljspiek.github.io/refuge_app/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Live</a></p>
+                <div className='txt-box'>
+                    <h4 className='app-name'>Refuge Maps</h4>
+                    <p className='about-project'>This project was built with Jquery, HTML and CSS. This app uses google maps api to show locations of nearby refuges for those who are in need.</p>
+                    <p className='about-project-2'><a href=
+                        "https://github.com/ljspiek/refuge_app"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Github</a></p>
+                    <p className='about-project-2'><a href=
+                        "https://ljspiek.github.io/refuge_app/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Live</a></p>
+                </div>
             </div>
         </div>
     )
