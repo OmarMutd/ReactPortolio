@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <h1 className='App-Header'> Hi, I'm Omar.</h1>
       <p className='intro-to-me'> A Full stack React software engineer living in Texas,USA<span role='img' aria-label="USA-flag"> 🇺🇸</span>.</p>
-      <p className='about'>Coding is a lot of fun espically when it comes to showing your creative side using tools like Reactjs or Javascript! I also desire to work on a team as pair programming is very fun. I also really enjoy pets and hiking as hobbies.</p>
+      <p className='intro-to-me two'>Coding is a lot of fun espically when it comes to showing your creative side using tools like Reactjs or Javascript!</p>
+      <p className='intro-to-me two'>I also desire to work on a team as pair programming is very fun. I also really enjoy pets and hiking as hobbies.</p>
       <ul className='skills-list'>
         <h5>My Skills include:</h5>
         <li>JS</li>
