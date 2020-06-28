@@ -193,6 +193,7 @@ a:hover {
     float: left;
     width: 700px;
     height: 170px;
+    margin-bottom: 10px;
   }
   img .project-image-header {
     /* width: 400px; */
