@@ -162,15 +162,16 @@ a:hover {
     margin: 0px;
     padding-bottom: 10px;
   }
-  /* .intro-to-me.two {
-    text-align: center;
+  .intro-to-me.two {
+    /* text-align: center;
     margin: 0px;
     padding-bottom: 10px;
     font-weight: 500;
     font-size: 15px;
-
-    max-width: 700px;
-  } */
+    max-width: 700px; */
+    font-size: 1.1rem;
+    font-weight: 350;
+  }
   .skills-list {
     margin: 0px;
     text-align: center;
