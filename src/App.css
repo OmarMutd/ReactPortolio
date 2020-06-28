@@ -228,4 +228,7 @@ a:hover {
   .app-name {
     margin-top: 20px;
   }
+  .about-project {
+    max-width: 685px;
+  }
 }
